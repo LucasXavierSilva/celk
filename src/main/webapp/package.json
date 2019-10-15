@@ -1,0 +1,51 @@
+{
+  "name": "angular-styleguide-sample",
+  "version": "0.1.0",
+  "description": "Angular 1.x styleguide (ES2015) Sample App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "node node_modules/webpack/bin/webpack.js",
+    "test": " [ -f dist/bundle.js ] "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chihab/angular-styleguide-sample.git"
+  },
+  "keywords": [
+    "Angular",
+    "styleguide",
+    "(ES2015)",
+    "Sample",
+    "App",
+    "Todd",
+    "Motto",
+    "ToddMotto"
+  ],
+  "author": "Chihab Otmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chihab/angular-styleguide-sample/issues"
+  },
+  "homepage": "https://github.com/chihab/angular-styleguide-sample",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "html-loader": "^0.5.5",
+    "ngtemplate-loader": "^2.0.1",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "angular-ui-router": "^1.0.23",
+    "angular": "^1.7.8"
+  }
+}
